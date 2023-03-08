@@ -295,7 +295,7 @@ span {
     .proyectos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        column-gap: 20px;
+        column-gap: 50px;
     }
 }
 
@@ -329,13 +329,8 @@ span {
         width: 300px;
         border: solid 1px;
         /* padding: 0 20px */
-    }
+    }    
 }
-
-
-
-
-
 
 .proyecto h3 {
     color: #677dd8;
@@ -344,7 +339,7 @@ span {
 
 .proyecto p {
     line-height: 2;
-    text-align: center;
+    text-align: justify;
 }
 
 .repositorio {
@@ -473,8 +468,6 @@ span {
     
     }
 
-
-
     .datos {
         display: grid;
         grid-template-columns: 1fr;
@@ -502,7 +495,7 @@ span {
     }
 
     .descripcion-portafolio {
-        text-align: center;
+        text-align: justify;
         line-height: 1.5;
     }
 }

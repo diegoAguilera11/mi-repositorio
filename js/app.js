@@ -68,7 +68,7 @@ function validarCampo(e) {
     }
 
 
-    if (email.value !== '' && nombre.value !== '' && telefono.value !== '' && tipo.value !== '' && mensaje.value !== '') {
+    if (erEmail.test(email.value) && nombre.value !== '' && telefono.value !== '' && tipo.value !== '' && mensaje.value !== '') {
         btnEnviar.disabled = false
         btnEnviar.classList.remove('boton-desactivado');
     } else {
